@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Crimson+Text:ital,wght@0,400;0,600;1,400&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-crimson text-black bg-white text-base leading-relaxed;
+  }
+}
+
+@layer components {
+  .newspaper-container {
+    @apply max-w-6xl mx-auto bg-white shadow-2xl grid gap-x-4 grid-cols-1 md:grid-cols-3 row-auto;
+  }
+
+  .newspaper-header {
+    @apply border-b-4 border-black py-2.5 px-5 bg-gray-100;
+  }
+
+  .header-info {
+    @apply flex justify-between items-center font-libre text-sm font-semibold;
+  }
+
+  .date {
+    @apply text-gray-700;
+  }
+
+  .price {
+    @apply text-black font-bold;
+  }
+
+  .masthead {
+    @apply text-center py-8 px-5 border-b-2 border-black bg-gray-50 col-span-full;
+  }
+
+  .newspaper-title {
+    @apply font-playfair text-6xl font-black text-black mb-2.5 tracking-wider uppercase;
+  }
+
+  .tagline {
+    @apply font-libre text-sm text-gray-700 italic mt-1;
+  }
+
+  .main-story {
+    @apply border-b-2 border-black pb-5;
+  }
+
+  .headline {
+    @apply font-playfair text-4xl font-bold text-black leading-tight mb-2.5 uppercase tracking-wide;
+  }
+
+  .byline {
+    @apply font-libre text-xs text-gray-600 italic mb-4 uppercase tracking-wider;
+  }
+
+  .lead {
+    @apply font-crimson text-lg font-semibold leading-relaxed mb-4 text-black;
+  }
+
+  .main-story p {
+    @apply font-crimson text-base leading-loose mb-3 text-justify;
+  }
+
+  .story {
+    @apply border-b border-gray-300 pb-4 mb-4;
+  }
+
+  .story-headline {
+    @apply font-playfair text-2xl font-bold text-black leading-tight mb-2 uppercase tracking-wide;
+  }
+
+  .story p {
+    @apply font-crimson text-sm leading-relaxed mb-2.5 text-justify;
+  }
+
+  .section-headline {
+    @apply font-playfair text-xl font-bold text-black uppercase tracking-wide mb-4 border-b-2 border-black pb-1;
+  }
+
+  .weather-box {
+    @apply bg-gray-100 border-2 border-black p-4 my-4;
+  }
+
+  .weather-content {
+    @apply font-libre;
+  }
+
+  .current-weather {
+    @apply flex justify-between items-center mb-4 pb-2.5 border-b border-black;
+  }
+
+  .temp {
+    @apply text-3xl font-bold text-black;
+  }
+
+  .condition {
+    @apply text-sm text-gray-700 uppercase tracking-wide;
+  }
+
+  .forecast {
+    @apply flex flex-col gap-2;
+  }
+
+  .forecast-day {
+    @apply flex justify-between items-center text-xs py-1 border-b border-gray-300;
+  }
+
+  .day {
+    @apply font-semibold uppercase tracking-wide;
+  }
+
+  .high-low {
+    @apply font-semibold text-black;
+  }
+
+  .classifieds {
+    @apply bg-gray-50 border border-gray-300 p-4 my-4;
+  }
+
+  .ad {
+    @apply font-libre text-xs leading-relaxed mb-3 pb-2 border-b border-gray-300;
+  }
+
+  .ad:last-child {
+    @apply border-b-0 mb-0;
+  }
+
+  .calendar-item {
+    @apply font-libre text-sm leading-relaxed mb-2 pb-1 border-b border-gray-200;
+  }
+
+  .calendar-item:last-child {
+    @apply border-b-0 mb-0;
+  }
+
+  .obituary {
+    @apply font-crimson text-sm leading-relaxed mb-4 p-2.5 bg-gray-50 border-l-4 border-black;
+  }
+
+  .opinion-content {
+    @apply font-crimson text-sm leading-relaxed;
+  }
+
+  .opinion-content p {
+    @apply mb-3 text-justify;
+  }
+
+  /* CSS Grid utilities for better layout control */
+  .grid-auto-fit {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+
+  .grid-auto-fill {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+
+  .grid-areas-left-center-right {
+    grid-template-areas: 'left center right';
+  }
+
+  .grid-areas-left-right {
+    grid-template-areas: 'left right';
+  }
+
+  .grid-areas-stack {
+    grid-template-areas:
+      'left'
+      'center'
+      'right';
+  }
+
+  .newspaper-footer {
+    @apply bg-black text-white p-5 text-center border-t-4 border-black col-span-full;
+  }
+
+  .footer-info {
+    @apply font-libre text-xs leading-relaxed;
+  }
+
+  .footer-info p {
+    @apply mb-1;
+  }
+
+  .footer-info p:last-child {
+    @apply mb-0;
+  }
+}
+
+/* Custom grid classes that need to be preserved */
+
+.three-column-left {
+  @apply col-span-full;
+}
+
+.two-column-left {
+  @apply col-span-full md:col-span-2;
+}
+
+.two-column-right {
+  @apply col-span-full md:col-span-2 md:col-start-2;
+}
+
+.one-column-left {
+  @apply col-span-full md:col-start-1 md:col-end-2;
+}
+
+.one-column-center {
+  @apply col-span-full md:col-start-2 md:col-end-3;
+}
+
+.one-column-right {
+  @apply col-span-full md:col-start-3 md:col-end-4;
+}
+.story,
+.classifieds,
+.opinion,
+.main-story,
+.weather-box {
+  @apply m-4;
+}
+
+@layer utilities {
+  @media (max-width: 1024px) {
+    .newspaper-title {
+      @apply text-5xl;
+    }
+
+    .headline {
+      @apply text-3xl;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .newspaper-title {
+      @apply text-4xl;
+    }
+
+    .headline {
+      @apply text-2xl;
+    }
+
+    .story-headline {
+      @apply text-xl;
+    }
+
+    .newspaper-container {
+      @apply mx-2 shadow-none gap-y-2;
+    }
+
+    .masthead {
+      @apply py-6 px-3;
+    }
+
+    .newspaper-header {
+      @apply py-2 px-3;
+    }
+
+    .story,
+    .classifieds,
+    .opinion,
+    .main-story,
+    .weather-box {
+      @apply mx-2 my-3;
+    }
+  }
+
+  @media (max-width: 480px) {
+    .newspaper-title {
+      @apply text-3xl;
+    }
+
+    .headline {
+      @apply text-xl;
+    }
+
+    .story-headline {
+      @apply text-lg;
+    }
+
+    .masthead {
+      @apply py-4 px-2;
+    }
+
+    .newspaper-header {
+      @apply py-1.5 px-2;
+    }
+
+    .newspaper-container {
+      @apply mx-1 gap-y-1;
+    }
+
+    .story,
+    .classifieds,
+    .opinion,
+    .main-story,
+    .weather-box {
+      @apply mx-1 my-2;
+    }
+
+    .lead {
+      @apply text-base;
+    }
+
+    .main-story p,
+    .story p {
+      @apply text-sm;
+    }
+  }
+}

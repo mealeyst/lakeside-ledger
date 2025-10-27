@@ -1,0 +1,185 @@
+{
+  "publication": {
+    "name": "Lakeside Ledger",
+    "date": "2024-12-16",
+    "price": "50¢"
+  },
+  "masthead": {
+    "date": "2024-12-16",
+    "price": "50¢"
+  },
+  "sections": [
+    {
+      "id": "1",
+      "type": "story",
+      "className": "two-column-left",
+      "content": {
+        "headline": "PAWLING TOWN BOARD APPROVES NEW RECREATION CENTER",
+        "byline": "By Sarah Mitchell, Staff Writer",
+        "content": "The Pawling Town Board voted unanimously last night to approve construction of a new $2.3 million recreation center that will serve residents of Pawling, Patterson, and surrounding areas.\n\nThe facility, to be built on the site of the old elementary school on Route 22, will include a full-size gymnasium, indoor swimming pool, fitness center, and community meeting rooms. Construction is expected to begin in March 2025 and be completed by fall 2026.\n\n\"This has been a long time coming,\" said Town Supervisor Robert Chen. \"Our community has needed modern recreational facilities for years, and this project will serve our residents for generations to come.\"\n\nThe project will be funded through a combination of state grants, federal funding, and a modest increase in property taxes. The board estimates the average homeowner will see an increase of approximately $45 per year.\n\nLocal contractor Miller & Sons Construction has been selected to lead the project, with architectural plans drawn up by Hudson Valley Design Associates.",
+        "isMainStory": true
+      }
+    },
+    {
+      "id": "2",
+      "type": "story",
+      "content": {
+        "headline": "Local Business Spotlight: Pawling Hardware Celebrates 40 Years",
+        "byline": "By Tom Richardson",
+        "content": "Pawling Hardware, the family-owned store on Main Street, celebrated its 40th anniversary this weekend with a community celebration that drew hundreds of residents.\n\nOwners Jim and Mary Thompson opened the store in 1984, taking over from Mary's father who had run a smaller hardware operation in the same location since 1952.\n\n\"We've seen this town grow and change over the decades,\" said Jim Thompson. \"But one thing that hasn't changed is the sense of community here in Pawling.\"",
+        "isMainStory": false
+      }
+    },
+    {
+      "id": "3",
+      "type": "story",
+      "content": {
+        "headline": "High School Basketball Team Advances to Sectionals",
+        "byline": "By Mike Johnson, Sports Editor",
+        "content": "The Pawling High School Tigers basketball team secured their spot in the sectional playoffs with a decisive 78-65 victory over Dover Plains on Friday night.\n\nSenior guard Jake Martinez led the scoring with 24 points, while junior forward Alex Chen pulled down 12 rebounds. The Tigers finished the regular season with a 16-4 record.\n\n\"These kids have worked incredibly hard this season,\" said Coach David Rodriguez. \"They've earned this opportunity to compete at the next level.\"\n\nThe sectional tournament begins next week, with the Tigers facing off against Brewster High School in the first round.",
+        "isMainStory": false
+      }
+    },
+    {
+      "id": "4",
+      "type": "story",
+      "content": {
+        "headline": "Library Hosts Winter Reading Program",
+        "byline": "By Lisa Chen",
+        "content": "The Pawling Free Library kicked off its annual Winter Reading Program this weekend, with over 150 residents of all ages signing up for the month-long event.\n\nParticipants can earn prizes by reading books and attending special programs throughout January. This year's theme is \"Winter Wonderland,\" featuring books about winter activities, holidays, and seasonal celebrations.",
+        "isMainStory": false
+      }
+    },
+    {
+      "type": "weather",
+      "id": "1",
+      "content": {
+        "current": {
+          "temperature": 38,
+          "condition": "Snow Showers"
+        },
+        "forecast": [
+          {
+            "day": "Today",
+            "high": 38,
+            "low": 25,
+            "condition": "Snow Showers"
+          },
+          {
+            "day": "Tomorrow",
+            "high": 35,
+            "low": 22,
+            "condition": "Clear"
+          },
+          {
+            "day": "Wednesday",
+            "high": 42,
+            "low": 28,
+            "condition": "Partly Cloudy"
+          }
+        ]
+      }
+    },
+    {
+      "id": "1",
+      "type": "classifieds",
+      "content": [
+        {
+          "id": "1",
+          "category": "FOR SALE",
+          "description": "2008 Honda Civic, 120K miles, excellent condition. $4,500.",
+          "contact": "Call 845-555-0123"
+        },
+        {
+          "id": "2",
+          "category": "HELP WANTED",
+          "description": "Part-time cashier needed at Main Street Market. Evenings and weekends.",
+          "contact": "Apply in person"
+        },
+        {
+          "id": "3",
+          "category": "LOST",
+          "description": "Black and white border collie, last seen near Lakeside Park. Reward offered.",
+          "contact": "Call 845-555-0456"
+        },
+        {
+          "id": "4",
+          "category": "YARD SALE",
+          "description": "Saturday 9am-2pm, 15 Oak Street. Furniture, books, and household items.",
+          "contact": null
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "type": "communityCalendar",
+      "content": [
+        {
+          "id": "1",
+          "date": "2024-12-17",
+          "eventName": "Town Board Meeting",
+          "description": "7:00 PM",
+          "location": "Town Hall"
+        },
+        {
+          "id": "2",
+          "date": "2024-12-18",
+          "eventName": "Senior Center Bingo",
+          "description": "1:00 PM",
+          "location": null
+        },
+        {
+          "id": "3",
+          "date": "2024-12-19",
+          "eventName": "Library Story Time",
+          "description": "10:30 AM",
+          "location": null
+        },
+        {
+          "id": "4",
+          "date": "2024-12-20",
+          "eventName": "High School Basketball vs. Brewster",
+          "description": "7:00 PM",
+          "location": null
+        },
+        {
+          "id": "5",
+          "date": "2024-12-21",
+          "eventName": "Holiday Craft Fair",
+          "description": "10:00 AM - 4:00 PM",
+          "location": "Community Center"
+        }
+      ]
+    },
+    {
+      "id": "1",
+      "type": "obituaries",
+      "content": [
+        {
+          "id": "1",
+          "deceasedName": "Margaret \"Peggy\" O'Brien",
+          "age": 87,
+          "description": "of Pawling, passed away peacefully on December 14, 2024. A lifelong resident of Pawling, Peggy was known for her volunteer work at St. John's Church and her beautiful garden. Services will be held at St. John's on Wednesday at 10:00 AM."
+        },
+        {
+          "id": "2",
+          "deceasedName": "Robert \"Bob\" Johnson",
+          "age": 72,
+          "description": "of Pawling, passed away on December 15, 2024. Bob was a retired teacher and active member of the Pawling Historical Society. Memorial service will be held at Pawling Community Church on Saturday at 2:00 PM."
+        }
+      ]
+    },
+    {
+      "type": "opinion",
+      "id": "1",
+      "className": "three-column-left",
+      "content": {
+        "id": "1",
+        "writerName": "Editorial Board",
+        "title": "The Future of Our Community",
+        "article": "As we look toward the future of Pawling and the surrounding communities, it's clear that we stand at a crossroads. The recent approval of the new recreation center represents more than just a building project—it symbolizes our commitment to investing in the next generation.\n\nThe $2.3 million facility will serve not only Pawling residents but also our neighbors in Patterson and the broader Dutchess County region. This collaborative approach to community development is exactly what we need to ensure our small towns remain vibrant and attractive places to live, work, and raise families.\n\nHowever, with this investment comes responsibility. The modest tax increase of approximately $45 per year for the average homeowner is a small price to pay for the long-term benefits this facility will provide. But we must ensure that this project is managed efficiently and that the community gets the maximum value for every dollar spent.\n\nThe selection of Miller & Sons Construction, a local contractor, shows our commitment to supporting local businesses. This project will not only provide recreational opportunities but also create jobs and economic activity in our region.\n\nAs construction begins in March 2025, we encourage all residents to stay engaged with the process. Public input and oversight will be crucial to ensuring this project meets the community's needs and expectations.\n\nThe Lakeside Ledger will continue to follow this story closely, providing regular updates on construction progress, budget management, and community feedback. Together, we can build not just a recreation center, but a stronger, more connected community for generations to come.",
+        "columnSpan": 2
+      }
+    }
+  ]
+}
